@@ -5,9 +5,11 @@ num2 =int(num2)
 
 if operator == "+":
     print("{} + {} = {}".format(num1, num2, num1+num2))
-if operator == "*":
+elif operator == "*":
     print("{} * {} = {}".format(num1, num2,num1 * num2))
-if operator == "/":
+elif operator == "/":
     print("{} / {} = {}".format(num1, num2,num1 / num2))
-if operator == "%":
+elif operator == "%":
     print("{} % {} = {}".format(num1, num2,num1 % num2))
+else:
+    print("error")
